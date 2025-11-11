@@ -32,7 +32,7 @@ def run_server() -> None:
 
     Serves as the entrypoint for the 'runmcp' command.
     """
-    mcp.run()
+    mcp.run("streamable-http")
 
 
 if __name__ == "__main__":
